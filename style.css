@@ -20,6 +20,11 @@ a {
     text-decoration: none;
 
     color: white;
+
+}
+.nav-lists li a:hover{
+    background-color: rgb(87, 95, 104);
+    color: white;
 }
 /* li,a:hover{ 
      color: white; 
@@ -120,9 +125,32 @@ nav {
 .hero-left p{
     margin-top: 20px;
 }
+/* new */
+.zuni-center{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    /* border: 2px solid grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 115px;
+    padding: 100px;
+
+}
+.zuni-center img {
+   /* height:250px; */
+   /* width:250px; */
+   border-radius: 200px;
+   margin-left: -96px;
+   margin-top: 90px;
+   
+}
 .hero-right{
     margin-top: 10%;
     max-width: 300px;
+    margin-left: 130px;
 }
 .hero-right h3{
     color: #ccc;
